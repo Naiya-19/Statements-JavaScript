@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let op = prompt("Enter operator +, -, *, / : ");
+        number1 = parseInt(prompt('Enter first number: '));
+        number2 = parseInt(prompt('Enter second number: '));
+
+        if (op == "+") {
+            result = number1 + number2;
+        }
+        else if (op == "-") {
+            result = number1 - number2;
+        }
+        else if (op == "*") {
+            result = number1 * number2;
+        }
+        else if (op == "/") {
+            result = number1 / number2;
+        }
+        else {
+            result = "Invalid operation";
+        }
+
+        console.log("The Result of this operation is : " + result);
+
+
+    </script>
+</body>
+
+</html>
